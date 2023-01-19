@@ -80,7 +80,7 @@ func main() {
 }
 
 
-# 4. Conditional statements:
+# 4. Control Flow:
 
 package main
 

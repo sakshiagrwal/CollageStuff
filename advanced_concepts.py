@@ -30,3 +30,47 @@ print(result) # Output: 4.0
 from math import sqrt, pi
 result = sqrt(16)
 print(result) # Output: 4.0
+
+# 3. Classes and Objects:
+
+# Defining a class
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+# Creating an object of the class
+dog1 = Dog("Fido", "Golden Retriever")
+
+# Accessing object attributes
+print(dog1.name) # Output: "Fido"
+print(dog1.breed) # Output: "Golden Retriever"
+
+# Defining class methods
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        print("Woof!")
+
+# Calling a class method
+dog1 = Dog("Fido", "Golden Retriever")
+dog1.bark() # Output: "Woof!"
+
+
+# 4. Exception Handling
+
+# Raise an exception
+x = -5
+if x < 0:
+    raise ValueError("x should be a non-negative number")
+
+# Handling an exception
+try:
+    x = -5
+    if x < 0:
+        raise ValueError("x should be a non-negative number")
+except ValueError as e:
+    print(e) # Output: "x should be a non-negative number"

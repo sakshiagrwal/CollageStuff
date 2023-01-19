@@ -1,4 +1,4 @@
-# 1. Variables:
+// 1. Variables:
 
 package main
 
@@ -16,7 +16,7 @@ func main() {
 }
 
 
-# 2. Data types:
+// 2. Data types:
 
 #package main
 
@@ -52,7 +52,7 @@ func main() {
 }
 
 
-# 3. Loops:
+// 3. Loops:
 
 package main
 
@@ -80,7 +80,7 @@ func main() {
 }
 
 
-# 4. Control Flow:
+// 4. Control Flow:
 
 package main
 
